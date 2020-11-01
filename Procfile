@@ -1,1 +1,1 @@
-web: gunicorn app:gnews
+web: gunicorn gnews:gnews
