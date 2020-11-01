@@ -14,7 +14,7 @@ After sucessful run ,the app will be seen running on:
  
   ``` http://127.0.0.1:5000 ```   
    
-   Now to acess the news type any of below keywords:
+   Now , type any of the below keywords as query :
    
    ```
     india
@@ -31,11 +31,13 @@ After sucessful run ,the app will be seen running on:
     hyderabad
     chennai
     
+    link with "india" as query👇
     http://127.0.0.1:5000/?q=india
     
    or give the topic link from gnews ex:
    https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNREZqY0hsNUVnSmxiaWdBUAE?hl=en-IN&gl=IN&ceid=IN%3Aen
    
+   link with topic link as query👇
    http://127.0.0.1:5000/?q=https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNREZqY0hsNUVnSmxiaWdBUAE?hl=en-IN&gl=IN&ceid=IN%3Aen
    
    ```
