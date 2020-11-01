@@ -3,14 +3,16 @@ Gets the Headlines and source url of articles from gnews
 
 Download the code on ur local pc and run the app.py with all the required modules installed
 
-``` required modules:
-    bs4
-    flask
-    requests ```
+```  required modules:
+     bs4
+     flask
+     requests
+   ``` 
     
-    After sucessful run ,the app will be seen running on:
     
-    ``` http://127.0.0.1:5000 ```
+After sucessful run ,the app will be seen running on:
+ 
+  ``` http://127.0.0.1:5000 ```   
    
    Now to acess the news type any of below keywords:
    
