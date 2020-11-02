@@ -6,7 +6,7 @@ from flask import Flask,jsonify,request
 app = Flask(__name__)
 app.url_map.strict_slashes=False
 url="https://news.google.com/topstories?hl=en-IN&gl=IN&ceid=IN%3Aen"
-
+headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36'}
 def getdata(query):
     
     switch={
@@ -35,7 +35,7 @@ def getdata(query):
     else:
         url=q
         
-    res = requests.get(url).text
+    res = requests.get(url,headers).text
     output=[]
     soup = bs4.BeautifulSoup(res,'lxml')
     i = soup.find_all('h3',class_="ipQwMb ekueJc RD0gLb")
@@ -67,5 +67,5 @@ def home():
 
 
 if __name__ == '__main__':
-    app.debug=False
+    app.debug=True
     app.run()    
