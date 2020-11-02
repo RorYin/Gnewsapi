@@ -7,6 +7,15 @@ Download the code on ur local pc and run the app.py with all the required module
      bs4
      flask
      requests
+     lxml
+```   
+
+  to install type 👇
+     
+    ``` 
+     pip install bs4
+     pip install flask
+     and so on, in terminal/cmd
    ``` 
     
     
