@@ -1,0 +1,11 @@
+{
+    "name": "Gnewsapi",
+    "description": "Gets the Headlines and source url of articles from gnews",
+    "author": "Dhanush N",
+    "keywords": [
+        "flask",
+        "python",
+        "Gnewsapi"
+    ],
+    "repository": "https://github.com/RorYin/Gnewsapi"
+}

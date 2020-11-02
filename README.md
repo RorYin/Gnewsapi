@@ -32,13 +32,18 @@ After sucessful run ,the app will be seen running on:
     chennai
     
     link with "india" as query👇
-    http://127.0.0.1:5000/?q=india
+
+    Local Server :http://127.0.0.1:5000/?q=india
+    Heroku :https://baseurl.herokuapp.com/?q=india
     
    or give the topic link from gnews ex:
    https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNREZqY0hsNUVnSmxiaWdBUAE?hl=en-IN&gl=IN&ceid=IN%3Aen
    
    link with topic link as query👇
-   http://127.0.0.1:5000/?q=https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNREZqY0hsNUVnSmxiaWdBUAE?hl=en-IN&gl=IN&ceid=IN%3Aen
+
+   Local Server:http://127.0.0.1:5000/?q=https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNREZqY0hsNUVnSmxiaWdBUAE?hl=en-IN&gl=IN&ceid=IN%3Aen
+   
+   Heroku :https://baseurl.herokuapp.com/?q=http://127.0.0.1:5000/?q=https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNREZqY0hsNUVnSmxiaWdBUAE?hl=en-IN&gl=IN&ceid=IN%3Aen
    
    ```
    
@@ -328,8 +333,10 @@ After sucessful run ,the app will be seen running on:
 ]
 ```
 
+## Get your baseurl by deploying to heroku 👇
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RorYin/Gnewsapi/tree/main)
+
+<br>
+
 ## **Star the Repo in case you liked it :)**
 ### © [Dhanush N](https://github.com/RorYin)
-   
-   
-   
