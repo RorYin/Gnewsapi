@@ -11,12 +11,12 @@ Download the code on ur local pc and run the app.py with all the required module
 ```   
 
   to install type 👇
-     
-    ``` 
+  
+```
      pip install bs4
      pip install flask
      and so on, in terminal/cmd
-   ``` 
+```
     
     
 After sucessful run ,the app will be seen running on:
@@ -40,7 +40,8 @@ After sucessful run ,the app will be seen running on:
     hyderabad
     chennai
     
-    link with "india" as query👇
+  link with "india" as query👇
+  
 
     Local Server :http://127.0.0.1:5000/?q=india
     Heroku :https://baseurl.herokuapp.com/?q=india
@@ -54,7 +55,7 @@ After sucessful run ,the app will be seen running on:
    
    Heroku :https://baseurl.herokuapp.com/?q=http://127.0.0.1:5000/?q=https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNREZqY0hsNUVnSmxiaWdBUAE?hl=en-IN&gl=IN&ceid=IN%3Aen
    
-   ```
+```
    
    sample responses:
    
